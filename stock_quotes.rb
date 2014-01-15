@@ -20,12 +20,9 @@ puts "The current price for #{sym} is #{price}"
 puts "Your previous searches are:"
 read = File.open('quotes.csv')
 read.each do |line|
-	puts line
+	word = line.split(', ')
+	puts "#{word[0]} was trading at #{word[1]} on #{word[2]}"
 end
-
-
-
-
 
 #writes current search to csv file
 file = File.open('quotes.csv', 'a')
