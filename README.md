@@ -8,7 +8,7 @@ Files (like we used earlier today in class), allow us to store data between runs
 
 * Create a program that will prompt the user for a stock ticker symbol. 
 * Display the current ticker price for this symbol.
-* Display all prior search results (symbol, price, DateTime)
+* Display all prior search results (symbol, price, Time)
 * Append the ticker symbol, current price and current DateTime to the `quotes.csv` file so that on the next run of the program, this information will be saved.
 
 ## Bonus
@@ -20,4 +20,5 @@ Figure out how to use commandline arguments to pass in the stock ticker symbol, 
 * Run `bundle install` when you first clone this repo and change into the directory. This will do something special with the Gemfile that we'll talk about more later.
 * Use the Force, I mean `pry` if you get stuck
 * Figure out how to use the Finance gem first, then deal with file i/o
-* An example command for Yahoo Finance might be `trade = YahooFinance.quotes(["AAPL"], [:last_trade_with_time])`
+* You can get the Time with `Time.now`
+* An example command for Yahoo Finance might be `trade = YahooFinance.quotes(["AAPL"], [:last_trade_price])`
