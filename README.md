@@ -20,3 +20,4 @@ Figure out how to use commandline arguments to pass in the stock ticker symbol, 
 * Run `bundle install` when you first clone this repo and change into the directory. This will do something special with the Gemfile that we'll talk about more later.
 * Use the Force, I mean `pry` if you get stuck
 * Figure out how to use the Finance gem first, then deal with file i/o
+* An example command for Yahoo Finance might be `trade = YahooFinance.quotes(["AAPL"], [:last_trade_with_time])`
