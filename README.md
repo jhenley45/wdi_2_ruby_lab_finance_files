@@ -9,7 +9,7 @@ Files (like we used earlier today in class), allow us to store data between runs
 * Create a program that will prompt the user for a stock ticker symbol. 
 * Display the current ticker price for this symbol.
 * Display all prior search results (symbol, price, Time)
-* Append the ticker symbol, current price and current DateTime to the `quotes.csv` file so that on the next run of the program, this information will be saved.
+* Append the ticker symbol, current price and current Time to the `quotes.csv` file so that on the next run of the program, this information will be saved.
 
 ## Bonus
 
